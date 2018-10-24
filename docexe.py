@@ -27,12 +27,14 @@ def write_to_file(data):
     for row in ordered_array:
         sheet2.write(count, row['layer'], row['target_freq'])
         sheet2.write(count, (row['layer']+1), row['target'])
+        sheet2.write(count, (row['layer'] + 2), row['cluster_count'])
+
         count += 1
     book.save("Justin_Test_3_copy.xls")
 
 
 def insert_data_to_sheet(dictionary, ordered_array, layer):
-    ordered_array.append({'target_freq': dictionary['target_freq'], 'target': dictionary['target'], 'layer': layer})
+    ordered_array.append({'target_freq': dictionary['target_freq'], 'target': dictionary['target'], 'cluster_count':dictionary['cluster_count'], 'layer': layer})
     for item in dictionary['target_list']:
         insert_data_to_sheet(item, ordered_array, (layer+1))
 

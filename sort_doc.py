@@ -16,20 +16,20 @@ def start_sort():
 def sort_list(item_list):
     # One by one take each item and insert in to sub lists by their Target and target location
     # Sort each sublist, and get ready for print out
-    target_dictionary = {'target_freq': 'T',  'target': '-Root-', 'target_list': []}
+    target_dictionary = {'target_freq': 'T',  'target': '-Root-', 'cluster_count': '-', 'target_list': []}
     for item in item_list:
         if len(item[0]) == 2:
 
             item_found = False
             for root_item in target_dictionary['target_list']:
                 if is_sub_target(item, root_item):
-                    root_item['target_list'].append({'target_freq': item[0], 'target': item[1], 'target_list': []})
+                    root_item['target_list'].append({'target_freq': item[0], 'target': item[1], 'cluster_count': item[2], 'target_list': []})
                     item_found = True
             if not item_found:
                 target = get_target(item)
                 target_dictionary['target_list'].append(
-                    {'target_freq': 'T', 'target': target, 'target_list': [
-                        {'target_freq': item[0], 'target': item[1], 'target_list': []}]})
+                    {'target_freq': 'T', 'target': target, 'cluster_count':item[2], 'target_list': [
+                        {'target_freq': item[0], 'target': item[1], 'cluster_count': item[2], 'target_list': []}]})
         else:
             for root_key in target_dictionary['target_list']:
                 if get_target(item) == get_target(root_key):
@@ -42,7 +42,7 @@ def add_to_dictionary(target_tuple, dictionary):
     # what if its empty
     if list_length == 0:
             dictionary['target_list'].append(
-                {'target_freq': target_tuple[0], 'target': target_tuple[1], 'target_list': []})
+                {'target_freq': target_tuple[0], 'target': target_tuple[1], 'cluster_count': target_tuple[2], 'target_list': []})
             return dictionary
     if is_sub_target(target_tuple, dictionary):
         item_found = False
@@ -53,11 +53,11 @@ def add_to_dictionary(target_tuple, dictionary):
 
         if not item_found:
             dictionary['target_list'].append(
-                {'target_freq': target_tuple[0], 'target': target_tuple[1], 'target_list': []})
+                {'target_freq': target_tuple[0], 'target': target_tuple[1], 'cluster_count': target_tuple[2], 'target_list': []})
         return dictionary
     else:
         dictionary['target_list'].append(
-            {'target_freq': target_tuple[0], 'target': target_tuple[1], 'target_list': []})
+            {'target_freq': target_tuple[0], 'target': target_tuple[1], 'cluster_count': target_tuple[2], 'target_list': []})
         return dictionary
 
 

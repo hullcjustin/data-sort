@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="619a6cd7-a751-4af2-8160-2159cb77ec9e" name="Default Changelist" comment="" />
+    <list default="true" id="619a6cd7-a751-4af2-8160-2159cb77ec9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Justin_Test_3_copy.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Justin_Test_3_copy.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docexe.py" beforeDir="false" afterPath="$PROJECT_DIR$/docexe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel_sorting_jh.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel_sorting_jh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/~$Justin Test 1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/~$test_3.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/~$test_4.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort_doc.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort_doc.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,27 +19,28 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ExcelSortingJH$docexe.coverage" NAME="docexe Coverage Results" MODIFIED="1537020362991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ExcelSortingJH$excel_sorting_jh.coverage" NAME="excel_sorting_jh Coverage Results" MODIFIED="1537802905845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ExcelSortingJH$excel_sorting_jh.coverage" NAME="excel_sorting_jh Coverage Results" MODIFIED="1540379319947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-536836374">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="17" />
+          <entry key="Python" value="18" />
           <entry key="Web2Py" value="3" />
         </counts>
       </usages-collector>
@@ -39,27 +49,27 @@
           <entry key="JavaScript Console" value="11" />
           <entry key="Python Console" value="46" />
           <entry key="dummy" value="2" />
-          <entry key="py" value="10528" />
+          <entry key="py" value="10709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="11" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="10244" />
+          <entry key="Python" value="10425" />
           <entry key="Web2Py" value="330" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.62881565">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/merge_sort.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="915">
+                <state relative-caret-position="858">
                   <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
                 </state>
               </provider>
@@ -68,13 +78,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docexe.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                <state relative-caret-position="540">
+                  <caret line="36" column="141" selection-start-line="36" selection-start-column="141" selection-end-line="36" selection-end-column="141" />
                   <folding>
                     <element signature="e#0#34#0" expanded="true" />
-                    <marker date="1537802891448" expanded="true" signature="375:1147" ph="..." />
-                    <marker date="1537802891448" expanded="true" signature="923:928" ph="..." />
-                    <marker date="1537802891448" expanded="true" signature="1040:1147" ph="..." />
+                    <marker date="1540379319941" expanded="true" signature="375:1263" ph="..." />
+                    <marker date="1540379319941" expanded="true" signature="994:999" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -83,11 +92,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/excel_sorting_jh.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
-                    <marker date="1537801483156" expanded="true" signature="51:131" ph="..." />
+                    <marker date="1540377727469" expanded="true" signature="51:117" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -96,15 +105,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sort_doc.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+                <state relative-caret-position="-371">
+                  <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
-                    <marker date="1537801483161" expanded="true" signature="51:56" ph="..." />
+                    <marker date="1540379180091" expanded="true" signature="51:56" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -134,15 +143,19 @@
       <find>length</find>
       <find>start_sort</find>
       <find>split</find>
-      <find>start</find>
       <find>prtin</find>
       <find>print(</find>
       <find>%</find>
       <find>print</find>
+      <find>start</find>
+      <find>star</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,8 +164,8 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/sort_doc.ps.py" />
         <option value="$PROJECT_DIR$/merge_sort.py" />
-        <option value="$PROJECT_DIR$/sort_doc.py" />
         <option value="$PROJECT_DIR$/excel_sorting_jh.py" />
+        <option value="$PROJECT_DIR$/sort_doc.py" />
         <option value="$PROJECT_DIR$/docexe.py" />
       </list>
     </option>
@@ -163,11 +176,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1743" />
-    <option name="height" value="1057" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -279,16 +293,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14323749" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14468865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38445595" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32299465" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -296,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32953367" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32941177" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -313,6 +327,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/excel_sorting_jh.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -366,44 +387,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort_doc.py">
+    <entry file="file://$PROJECT_DIR$/merge_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1537801483161" expanded="true" signature="51:56" ph="..." />
-          </folding>
+        <state relative-caret-position="858">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/merge_sort.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/824063020/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="3622" column="8" selection-start-line="3622" selection-start-column="8" selection-end-line="3622" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort_doc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1540379180091" expanded="true" signature="51:56" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excel_sorting_jh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1537801483156" expanded="true" signature="51:131" ph="..." />
+            <marker date="1540377727469" expanded="true" signature="51:117" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docexe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="540">
+          <caret line="36" column="141" selection-start-line="36" selection-start-column="141" selection-end-line="36" selection-end-column="141" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
-            <marker date="1537802891448" expanded="true" signature="375:1147" ph="..." />
-            <marker date="1537802891448" expanded="true" signature="923:928" ph="..." />
-            <marker date="1537802891448" expanded="true" signature="1040:1147" ph="..." />
+            <marker date="1540379319941" expanded="true" signature="375:1263" ph="..." />
+            <marker date="1540379319941" expanded="true" signature="994:999" ph="..." />
           </folding>
         </state>
       </provider>
